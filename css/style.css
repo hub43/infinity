@@ -1,0 +1,46 @@
+html, body {
+	height : 100%;
+	padding : 0;
+	margin: 0;
+	overflow: hidden;
+}
+#game {
+	background: url('../img/space_bg.jpg');
+	height: 100%;
+}
+.ship {
+	position : absolute;
+	width : 72px;
+	height: 80px;
+	top : 300px;
+}
+.ship1 {
+	left: 100px;
+	background: url('../img/player1.png') no-repeat;
+}
+.ship2 {
+	left: 200px;
+	background: url('../img/player2.png') no-repeat;
+}
+.fire {
+	position : absolute;
+	width : 24px;
+	height: 45px;
+	background: url('../img/fire.png') no-repeat;
+	
+}
+img {
+	border : none;
+	position : absolute;
+}
+.meteor {
+	margin-top : -100px;
+	top : 0;
+	left: 0;
+	width : 98px;
+	height: 98px;
+}
+.explode {
+	width : 71px;
+	height : 100px;
+}
